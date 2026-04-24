@@ -1,20 +1,20 @@
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "@id": "https://doi.org/10.5281/zenodo.3547639",
+  "@id": "https://doi.org/10.5281/zenodo.6800385",
   "identifier": [
     {
       "@type": "PropertyValue",
       "propertyID": "DOI",
-      "value": "10.5281/zenodo.3547639",
-      "url": "https://doi.org/10.5281/zenodo.3547639"
+      "value": "10.5281/zenodo.6800385",
+      "url": "https://doi.org/10.5281/zenodo.6800385"
     }
   ],
-  "name": "OnlyTrivial_dt — Class-level trivial refactoring instances with CK metrics (ML4Refactoring subset)",
-  "description": "Row-per-Java-class snapshot drawn from the ML4Refactoring corpus of ~11k open-source Java projects. Each row captures CK software metrics (CBO, WMC, DIT, NOC, RFC, LCOM, LCOM*, TCC, LCC, method/field counts, LOC, and AST-derived counters) for a class version, plus a binary `refactoring` label marking whether a trivial class-level refactoring was applied at that commit. The subset filters the full ML4Refactoring release to only trivial class-level refactorings (rename, extract, move class, etc.) for supervised learning of refactoring recommenders.",
-  "url": "https://doi.org/10.5281/zenodo.3547639",
+  "name": "Dataset of code metrics",
+  "description": "Tabular dataset of CK software metrics computed on Java class versions. Each row captures metrics (CBO, WMC, DIT, NOC, RFC, LCOM, LCOM*, TCC, LCC, method/field counts, LOC, and AST-derived counters) for a Java class, plus a binary `refactoring` label marking whether a trivial class-level refactoring was applied at that commit. The dataset supports supervised learning of refactoring recommenders.",
+  "url": "https://doi.org/10.5281/zenodo.6800385",
   "version": "1.0",
-  "datePublished": "2019",
+  "datePublished": "2022",
   "inLanguage": "en",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "keywords": [
@@ -22,41 +22,15 @@
     "CK metrics",
     "Java",
     "supervised learning",
-    "MSR",
     "code quality"
   ],
   "creator": [
     {
       "@type": "Person",
-      "name": "Aniche, Maurício",
-      "identifier": "https://orcid.org/0000-0003-3576-3707",
+      "name": "DATASET1",
       "affiliation": {
         "@type": "Organization",
-        "name": "Delft University of Technology"
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Maziero, Erick Galante",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidade Federal de Lavras"
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Durelli, Rafael",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidade Federal de Lavras"
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Durelli, Vinicius H. S.",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "Universidade Federal de São João del-Rei"
+        "name": "UFC"
       }
     }
   ],
@@ -71,7 +45,7 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://doi.org/10.5281/zenodo.3547639",
+      "contentUrl": "https://doi.org/10.5281/zenodo.6800385",
       "contentSize": "51158315 B",
       "sha256": "7e9584a9cdb6a29b148e1f16ac769b61864343d5abcc5688f96d297ae12e6f55"
     }
@@ -290,8 +264,6 @@
       "name": "logStatementsQty"
     }
   ],
-  "citation": "Aniche, M., Maziero, E., Durelli, R., Durelli, V. H. S. (2020). The Effectiveness of Supervised Machine Learning Algorithms in Predicting Software Refactoring. IEEE Transactions on Software Engineering.",
-  "isBasedOn": "https://doi.org/10.1109/TSE.2020.3021736",
   "size": {
     "@type": "QuantitativeValue",
     "unitText": "rows",

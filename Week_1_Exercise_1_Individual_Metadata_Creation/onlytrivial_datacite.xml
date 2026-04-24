@@ -1,38 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
-  <identifier identifierType="DOI">10.5281/zenodo.3547639</identifier>
+  <identifier identifierType="DOI">10.5281/zenodo.6800385</identifier>
   <creators>
     <creator>
-      <creatorName nameType="Personal">Aniche, Maurício</creatorName>
-      <familyName>Aniche</familyName>
-      <givenName>Maurício</givenName>
-      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-3576-3707</nameIdentifier>
-      <affiliation>Delft University of Technology</affiliation>
-    </creator>
-    <creator>
-      <creatorName nameType="Personal">Maziero, Erick Galante</creatorName>
-      <familyName>Maziero</familyName>
-      <givenName>Erick Galante</givenName>
-      <affiliation>Universidade Federal de Lavras</affiliation>
-    </creator>
-    <creator>
-      <creatorName nameType="Personal">Durelli, Rafael</creatorName>
-      <familyName>Durelli</familyName>
-      <givenName>Rafael</givenName>
-      <affiliation>Universidade Federal de Lavras</affiliation>
-    </creator>
-    <creator>
-      <creatorName nameType="Personal">Durelli, Vinicius H. S.</creatorName>
-      <familyName>Durelli</familyName>
-      <givenName>Vinicius H. S.</givenName>
-      <affiliation>Universidade Federal de São João del-Rei</affiliation>
+      <creatorName>DATASET1</creatorName>
+      <affiliation>UFC</affiliation>
     </creator>
   </creators>
   <titles>
-    <title xml:lang="en">OnlyTrivial_dt — Class-level trivial refactoring instances with CK metrics (ML4Refactoring subset)</title>
+    <title xml:lang="en">Dataset of code metrics</title>
   </titles>
   <publisher>Zenodo</publisher>
-  <publicationYear>2019</publicationYear>
+  <publicationYear>2022</publicationYear>
   <subjects>
     <subject>software engineering</subject>
     <subject>software refactoring</subject>
@@ -40,7 +19,6 @@
     <subject>CK metrics</subject>
     <subject>machine learning</subject>
     <subject>Java</subject>
-    <subject>mining software repositories</subject>
   </subjects>
   <language>en</language>
   <resourceType resourceTypeGeneral="Dataset">Tabular dataset (CSV)</resourceType>
@@ -57,9 +35,6 @@
     <rights rightsURI="https://creativecommons.org/licenses/by/4.0/" rightsIdentifier="CC-BY-4.0" rightsIdentifierScheme="SPDX">Creative Commons Attribution 4.0 International</rights>
   </rightsList>
   <descriptions>
-    <description descriptionType="Abstract">Row-per-Java-class snapshot drawn from the ML4Refactoring corpus of ~11k open-source Java projects. Each row captures CK software metrics (CBO, WMC, DIT, NOC, RFC, LCOM, LCOM*, TCC, LCC, method/field counts, LOC, and AST-derived counters) for a class version, plus a binary `refactoring` label marking whether a trivial class-level refactoring was applied at that commit. The subset filters the full ML4Refactoring release to only trivial class-level refactorings (rename, extract, move class, etc.) for supervised learning of refactoring recommenders.</description>
+    <description descriptionType="Abstract">Tabular dataset of CK software metrics computed on Java class versions. Each row captures metrics (CBO, WMC, DIT, NOC, RFC, LCOM, LCOM*, TCC, LCC, method/field counts, LOC, and AST-derived counters) for a Java class, plus a binary `refactoring` label marking whether a trivial class-level refactoring was applied at that commit. The dataset supports supervised learning of refactoring recommenders.</description>
   </descriptions>
-  <relatedIdentifiers>
-    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsDocumentedBy">10.1109/TSE.2020.3021736</relatedIdentifier>
-  </relatedIdentifiers>
 </resource>
