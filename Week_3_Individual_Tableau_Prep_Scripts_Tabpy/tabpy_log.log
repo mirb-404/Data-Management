@@ -6534,3 +6534,2234 @@
 2026-05-07,03:26:27 [CRITICAL] (app.py:app:189): Exiting on signal 2...
 2026-05-07,03:26:27 [INFO] (app.py:app:195): Shutting down TabPy...
 2026-05-07,03:26:27 [INFO] (app.py:app:195): Shutting down TabPy...
+2026-05-07,03:29:16 [INFO] (app.py:app:316): Parsing config file E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tabpy_server\app\..\common\default.conf
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter port set to "9004" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter server_version set to "2.13.0" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter evaluate_enabled set to "True" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter evaluate_timeout set to "30" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter upload_dir set to "E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tmp\query_objects" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter transfer_protocol set to "http" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:284): Parameter certificate_file is not set
+2026-05-07,03:29:16 [DEBUG] (app.py:app:284): Parameter key_file is not set
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter minimum_tls_version set to "TLSv1_2" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter state_file_path set to "E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tabpy_server" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter static_path set to "E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tabpy_server\static" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:284): Parameter TABPY_PWD_FILE is not set
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter log_request_context set to "false" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter max_request_size_in_mb set to "100" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter gzip_enabled set to "True" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter arrow_enabled set to "False" from default value
+2026-05-07,03:29:16 [DEBUG] (app.py:app:277): Parameter arrowflight_port set to "13622" from default value
+2026-05-07,03:29:16 [INFO] (app.py:app:381): Setting max request size to 104857600 bytes
+2026-05-07,03:29:16 [INFO] (app.py:app:545): Loading state from state file E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tabpy_server\state.ini
+2026-05-07,03:29:16 [DEBUG] (app.py:app:397): Static pages folder set to "E:\Master's Notes\2nd semester\Data Management\Data Management Assignments\Data-Management\Week_3_Individual_Tableau_Prep_Scripts_Tabpy\tabpy-env\Lib\site-packages\tabpy\tabpy_server\static"
+2026-05-07,03:30:32 [INFO] (app.py:app:510): Password file is not specified: Authentication is not enabled
+2026-05-07,03:30:32 [INFO] (app.py:app:429): Call context logging is disabled
+2026-05-07,03:30:32 [INFO] (app.py:app:197): Initializing TabPy...
+2026-05-07,03:30:32 [DEBUG] (proactor_events.py:proactor_events:631): Using proactor: IocpProactor
+2026-05-07,03:30:32 [INFO] (callbacks.py:callbacks:43): Initializing TabPy Server...
+2026-05-07,03:30:32 [DEBUG] (state.py:state:628): Loading option 'None' from section [Query Objects Service Versions]...
+2026-05-07,03:30:32 [DEBUG] (state.py:state:650): Returning value '[]'
+2026-05-07,03:30:32 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2026-05-07,03:30:32 [INFO] (app.py:app:201): Done initializing TabPy.
+2026-05-07,03:30:32 [DEBUG] (selector_events.py:selector_events:64): Using selector: SelectSelector
+2026-05-07,03:30:32 [INFO] (callbacks.py:callbacks:64): Initializing models...
+2026-05-07,03:30:32 [DEBUG] (state.py:state:628): Loading option 'None' from section [Query Objects Service Versions]...
+2026-05-07,03:30:32 [DEBUG] (state.py:state:650): Returning value '[]'
+2026-05-07,03:30:32 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2026-05-07,03:30:32 [INFO] (app.py:app:167): Web service listening on port 9004
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:53 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:53 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:53 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:53 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:53 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:53 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:53 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:53 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 1797.60ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 1801.75ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 1799.52ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 1800.85ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 1802.16ms
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:55 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:31:55 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:31:55 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:31:55 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:31:55 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 26.75ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 29.14ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 25.44ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 23.75ms
+2026-05-07,03:31:55 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 28.89ms
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:36 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:36 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 7.05ms
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:36 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:36 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:36 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:36 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:36 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 10.18ms
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:40 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:40 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 5.59ms
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:40 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:40 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 4.91ms
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:40 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:40 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:40 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:40 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ execution_result = filter_and_enrich(pd.DataFrame(_arg1))
+ return execution_result.to_dict(orient='list') if isinstance(execution_result, pd.DataFrame) else execution_result
+
+2026-05-07,03:32:40 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 8.23ms
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:43 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:43 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 6.10ms
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:43 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:43 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:43 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:43 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:43 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 9.01ms
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:46 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:46 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 5.55ms
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:46 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:46 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 5.63ms
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:46 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:46 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 5.40ms
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:46 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:32:46 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 5.47ms
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:32:46 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:32:46 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:32:46 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:32:46 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ execution_result = filter_and_enrich(pd.DataFrame(_arg1))
+ return execution_result.to_dict(orient='list') if isinstance(execution_result, pd.DataFrame) else execution_result
+
+2026-05-07,03:32:46 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 6.22ms
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:33:30 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:33:30 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 9.19ms
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2026-05-07,03:33:30 [DEBUG] (state.py:state:526): Collecting Access-Control-Allow-Origin from state file ...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (state.py:state:628): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2026-05-07,03:33:30 [DEBUG] (state.py:state:650): Returning value ''
+2026-05-07,03:33:30 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2026-05-07,03:33:30 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1):
+ import pandas as pd
+ def get_output_schema():
+ 	return '18daf2d7-ac40-49b3-ae09-663174b0d623'
+ def prep_string():
+ 	return ['prep_string_type']
+ def prep_bool():
+ 	return ['prep_bool_type']
+ def prep_int():
+ 	return ['prep_int_type']
+ def prep_decimal():
+     return ['prep_decimal_type']
+ def prep_date():
+ 	return ['prep_date_type']
+ def prep_datetime():
+ 	return ['prep_datetime_type']
+ import pandas as pd
+ 
+ 
+ def get_output_schema():
+     return pd.DataFrame({
+         'Employee_ID':                    prep_string(),
+         'Employee_Name':                  prep_string(),
+         'Department':                     prep_string(),
+         'Age':                            prep_int(),
+         'Salary':                         prep_int(),
+         'Hire_Date':                      prep_string(),
+         'City':                           prep_string(),
+         'Average_Salary_All_Employees':   prep_decimal(),
+         'Oldest_Employee_Name':           prep_string(),
+         'Oldest_Employee_Department':     prep_string()
+     })
+ 
+ 
+ def filter_and_enrich(df):
+     # Step 1: Compute metrics across ALL employees BEFORE filtering
+     avg_salary = df['Salary'].mean()
+     oldest_row = df.loc[df['Age'].idxmax()]
+     oldest_name = oldest_row['Employee_Name']
+     oldest_dept = oldest_row['Department']
+ 
+     # Step 2: Add new columns
+     df['Average_Salary_All_Employees'] = avg_salary
+     df['Oldest_Employee_Name'] = oldest_name
+     df['Oldest_Employee_Department'] = oldest_dept
+ 
+     # Step 3: Filter to IT department only
+     it_df = df[df['Department'] == 'IT'].copy()
+ 
+     # Step 4: Force column order explicitly
+     it_df = it_df[['Employee_ID', 'Employee_Name', 'Department', 'Age', 'Salary',
+                    'Hire_Date', 'City',
+                    'Average_Salary_All_Employees',
+                    'Oldest_Employee_Name',
+                    'Oldest_Employee_Department']]
+ 
+     return it_df
+ 
+ 
+ # Run it (for testing outside Tableau Prep)
+ if __name__ == '__main__':
+     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
+     result = filter_and_enrich(df)
+ 
+     print("=== IT Department Employees ===")
+     print(result[['Employee_Name', 'Department', 'Age', 'Salary',
+                   'Average_Salary_All_Employees',
+                   'Oldest_Employee_Name',
+                   'Oldest_Employee_Department']].to_string(index=False))
+ def get_output_schema_999d2a68a0af4621880441165a15348a(df = pd.DataFrame()):
+     import inspect
+     if len(inspect.getfullargspec(get_output_schema).args) == 0:
+         return get_output_schema()
+     else:
+         return get_output_schema(df)
+ result_schema_output = get_output_schema_999d2a68a0af4621880441165a15348a(pd.DataFrame(_arg1))
+ return result_schema_output.to_dict(orient='split') if isinstance(result_schema_output, pd.DataFrame) else result_schema_output
+
+2026-05-07,03:33:30 [INFO] (web.py:web:2439): 200 POST /evaluate (127.0.0.1) 8.97ms
+2026-05-07,03:33:48 [CRITICAL] (app.py:app:189): Exiting on signal 2...
+2026-05-07,03:33:48 [INFO] (app.py:app:195): Shutting down TabPy...
+2026-05-07,03:33:48 [INFO] (app.py:app:195): Shutting down TabPy...
