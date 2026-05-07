@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+# Mandatory out_schema to get output in proper order
 def get_output_schema():
     return pd.DataFrame({
         'Employee_ID':                    prep_string(),
@@ -40,8 +40,7 @@ def filter_and_enrich(df):
 
     return it_df
 
-
-# Run it (for testing outside Tableau Prep)
+# Main Function
 if __name__ == '__main__':
     df = pd.read_csv('employee_tableau_prep_python_sample.csv')
     result = filter_and_enrich(df)
